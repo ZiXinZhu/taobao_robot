@@ -31,20 +31,14 @@ public class LifeCycleConfiguration {
 
         //TODO 生产环境数据库
 
-//lt
-        properties.setUrl("jdbc:mysql://rm-wz901zpz986sa75ecoo.mysql.rds.aliyuncs.com:3306/wei_bank?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true");
+//ykf
+//        properties.setUrl("jdbc:mysql://rm-wz9c455xg8d2g2d917o.mysql.rds.aliyuncs.com:3306/ykf_bank?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true");
+//        properties.setUsername("boot");
+//        properties.setPassword("ykf@2019815");
+
+        properties.setUrl("jdbc:mysql://120.25.106.200:3306/taobao?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true");
         properties.setUsername("root");
-        properties.setPassword("weipay@2019411");
-
-//        properties.setUrl("jdbc:mysql://103.226.127.133:3306/pdd?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true&serverTimezone=Asia/Shanghai");
-//        properties.setUsername("root");
-//        properties.setPassword("pdd654123");
-
-
-
-
-
-
+        properties.setPassword("root");
 
         //TODO mysql驱动
         properties.setDriverClassName("com.mysql.cj.jdbc.Driver");

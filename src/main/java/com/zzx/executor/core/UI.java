@@ -91,7 +91,7 @@ public class UI implements Runnable {
 
 
         public void initUI() {
-            JFrame jFram = new JFrame("熊二");
+            JFrame jFram = new JFrame("淘宝收货辅助工具");
             jFram.setSize(900, 190);
             jFram.setLocationRelativeTo(null);
             jFram.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -124,10 +124,10 @@ public class UI implements Runnable {
 
             JLabel interval;
             {
-                String[] listData = new String[]{"5", "10", "15", "60"};
+                String[] listData = new String[]{"5", "10", "20", "30"};
                 interval = new JLabel("扫描周期(秒):");
                 intervalSelect = new JComboBox<>(listData);
-                intervalSelect.setSelectedIndex(3);
+                intervalSelect.setSelectedIndex(2);
                 downPanel.add(interval);
                 downPanel.add(intervalSelect);
             }
